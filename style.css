@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/pawsUp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul {
+    width: 103px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 1px;
+    margin: 0;
+}
+
+.button {
+    box-shadow: 0 1px #9D9D9D;
+    outline: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-radius: 15px;
+    font-size: small;
+    border: none;
+    width: 110px;
+    background-color:black;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #D861A8;
+}
+
+.button:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 #9D9D9D;
+    background-color: #9D9D9D; 
+}
+
+#clicks {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    color: black;
+    text-shadow: 0 1px #158466;
+}
