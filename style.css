@@ -22,7 +22,6 @@ li {
 .button {
     box-shadow: 0 1px #9D9D9D;
     outline: none;
-    font-family: "Comic Sans MS", sans-serif;
     border-radius: 15px;
     font-size: small;
     border: none;
@@ -41,6 +40,55 @@ li {
     transform: translateY(2px);
     box-shadow: 0 0 #9D9D9D;
     background-color: #9D9D9D; 
+}
+
+#button1 {
+    background-color: #81CA3F;
+
+}
+
+#button2 {
+    background-color: #149FEB;
+}
+
+#button3 {
+    background-color: #FDB40A;
+}
+
+#button4 {
+    background-color: #6C6E03;
+}
+
+#button5 {
+    background-color: #000000;
+}
+
+#button6 {
+    background-color: #16A53E;
+}
+
+#button7 {
+    background-color: black;
+}
+
+#button8 {
+    background-color: #B00004;
+}
+
+#button9 {
+    background-color: #5B198F;
+}
+
+#button10 {
+    background-color: #149FEB;
+}
+
+#button11 {
+    background-color: #01154D;
+}
+
+#button12 {
+    background-color: #5B198F;
 }
 
 #clicks {
