@@ -7,27 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Callback-Cat</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        var params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
-        width=320,height=280,left=100,top=100`;
-        
-        open('index.html', 'test', params);
-        </script>
 </head>
 <body>
+
     <ul>
         <li><button class="button" id="button1" onclick="myFunction('I called the shop for an update, but there was no answer. ')">BS No Answer</button></li>
-        <li><button class="button" id="button2"  onclick="myFunction2('I called the shop for an update, but I disconnected after a long hold. ')">BS Long Hold</button></li>
+        <li><button class="button" id="button2"  onclick="myFunction('I called the shop for an update, but I disconnected after a long hold. ')">BS Long Hold</button></li>
         <li><button class="button" id="button3"  onclick="myFunction('I called the shop for an update, but the line was busy. ')">BS  Line Busy</button></li>
-        <li><button class="button" id="button4"  onclick="myFunction2('I left a message at the shop for an update on repairs. ')">BS Message</button></li>
+        <li><button class="button" id="button4"  onclick="myFunction('I left a message at the shop for an update on repairs. ')">BS Message</button></li>
         <li><button class="button" id="button5"  onclick="myFunction('I spoke to XX in the shop, but they were unable to provide an update on repairs at this time. ')">BS No Update</button></li>
-        <li><button class="button" id="button6" onclick="myFunction2('STF, please advise on extension/last day. ')">STF EXT</button></li>
+        <li><button class="button" id="button6" onclick="myFunction('STF, please advise on extension/last day. ')">STF EXT</button></li>
         <li><button class="button" id="button7"  onclick="myFunction('I called STF for an extension, but disconnected due to long hold times. ')">STF Hold</button></li>
-        <li><button class="button" id="button8" onclick="myFunction2('The policy max has been reached, and a last day has been set. ')">PMAX LD</button></li>
+        <li><button class="button" id="button8" onclick="myFunction('The policy max has been reached, and a last day has been set. ')">PMAX LD</button></li>
         <li><button class="button" id="button9"  onclick="myFunction('Ticket is OK to close. Extension is current and no upgrades or CDW authorization needed. ')">Close Pended</button></li>
-        <li><button class="button" id="button10"  onclick="myFunction2('****POLICY MAX IS   at /DAY**** ')">PMAX IS</button></li>
+        <li><button class="button" id="button10"  onclick="myFunction('****POLICY MAX IS   at /DAY**** ')">PMAX IS</button></li>
         <li><button class="button" id="button11"  onclick="myFunction('****RATE CHANGE. THE POLICY MAX IS NOW  at   /DAY**** ')">PMAX Change</button></li>
-        <li><button class="button" id="button12"  onclick="myFunction2('**I emailed XX at the branch to notify of the policy max date. ')">PMAX Notify</button></li>
+        <li><button class="button" id="button12"  onclick="myFunction('**I emailed XX at the branch to notify of the policy max date. ')">PMAX Notify</button></li>
     </ul>
 
     <div id="clicks"></div>
